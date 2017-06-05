@@ -1,3 +1,3 @@
 # QEMU contributions
 
-ashijeet24.github.io
+https://goo.gl/lhlKy0
