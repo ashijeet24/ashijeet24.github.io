@@ -1,0 +1,52 @@
+<h3>Optimize VMDK I/O Performance</h3>
+<ul style="list-style-type: circle;">
+<li><a title="Optimize VMDK I/O Performance" href="http://lists.nongnu.org/archive/html/qemu-devel/2017-06/msg00947.html" target="_blank">Optimize VMDK I/O Performance</a></li>
+</ul>
+<h3>Migration Crash Fix</h3>
+<ul style="list-style-type: circle;">
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=05551e58eee80af2d624b4bb5df95eb7182cd0fb" target="_blank">Remove the undesirable comment</a></li>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=d15c05fc1f9c0ddbbab1b2a08b976be82f2d0654" target="_blank">Add a new option to enable only-migratable</a></li>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=a3a3d8c73889282eb696535f1b5345d88b4dc58c" target="_blank">Allow "device add" options to only add migratable devices</a></li>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=fe44dc91807eca59d0230fe828c1e2ee0c305a1e" target="_blank">Disallow migrate_add_blocker during migration</a></li>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=b67b8c3a9deacd4e1f029422f01ad8179e16d580" target="_blank">Fail migration blocker for --only-migratable</a></li>
+</ul>
+<h3>DMG Chunk Size Independence</h3>
+<ul style="list-style-type: circle;">
+<li><a href="http://lists.nongnu.org/archive/html/qemu-devel/2017-04/msg05327.html" target="_blank">Refactor DMG driver to have chunk size independence</a></li>
+</ul>
+<h3><strong>Blockdev-add Support</strong></h3>
+<ul style="list-style-type: square;">
+<li>
+<h4>NFS Driver</h4>
+<ul>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=94d6a7a76e9df9919629428f6c598e2b97d9426c" target="_blank">Introduce runtime_opts in NFS</a></li>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=aa2623d817e7ecb62fd917e475ccc0d42dd1a413" target="_blank">Allow blockdev-add for NFS</a></li>
+</ul>
+</li>
+<li><strong>SSH Driver</strong>
+<ul>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=89dbe18089127cf90993359096b659ea6f819848" target="_blank">Add ssh_has_filename_options_conflict()</a></li>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=89cadc9dc0f7c6a48c243bf7d9ad983a9b667426" target="_blank">Make inet_connect_saddr() public</a></li>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=0da5b8ef5d81c3fab0ba560c7c2140da27309023" target="_blank">Add InetSocketAddress and accept it</a></li>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=1059f1bb42928e925f7dacb85da157a6e99c20ea" target="_blank">Use InetSocketAddress options</a></li>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=ad0e90a682280030af81ece502715f64232706db" target="_blank">Allow blockdev-add for ssh</a></li>
+</ul>
+</li>
+</ul>
+<h3><strong>Handle Migration For zero-RAM &ldquo;none&rdquo; Machine</strong></h3>
+<ul style="list-style-type: circle;">
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=0827b9e97d443781a17a21c64695940675aa1f8a" target="_blank">Introduce zero RAM checks to skip RAM migration</a></li>
+</ul>
+<h3><strong>Live Migration Parameters</strong></h3>
+<ul style="list-style-type: circle;">
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=2ff30257974e19ebe2a97baad32ac29c06da5fb9" target="_blank">Move max-bandwidth and downtime-limit to migrate_set_parameter</a></li>
+</ul>
+<h3><strong>Miscellaneous Patches</strong></h3>
+<ul style="list-style-type: circle;">
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=7e8449594c92992342512061160bc846c922016d" target="_blank">Change net/socket.c to use socket_*() functions</a></li>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=ca44141d5fb801dd5903102acefd0f2d8e8bb6a1" target="_blank">Fix memory leak in ide_register_restart_cb()</a></li>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=091ecc8b69bd735383e171828d4e8ed5e34c2a3b" target="_blank">Fix bounds check for migration parameters in migration.c</a></li>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=a1d4e38a8b01a6699355c31867d524f8d4cd480e" target="_blank">Fix the leaked visitor in nbd_refresh_filename()</a></li>
+<li><a href="http://git.qemu.org/?p=qemu.git;a=commitdiff;h=7562f90707aa1f409ba2312569cb791241fca045" target="_blank">Introduce a 'dc-&gt;vmsd' check to avoid segfault for --only-migratable</a></li>
+</ul>
+
